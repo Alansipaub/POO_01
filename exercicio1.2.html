@@ -8,12 +8,72 @@
 </head>
 
 <body>
+<script>
+    class Carros{
+      
+      
+     //Atributos
+       #marca;
+       #modelo;
+       #cor; 
+       #ano;
 
-    <h1>Exercício 1.2</h1>
-    <p>Observe o diagrama de classes abaixo e reproduza-o usando JavaScript:</p>
-    <p><img src="0001.png" alt="Diagrama de classe"></p>
-    <p>Teste a classe.</p>
+       //setters
 
+       setMarca(marca){
+           this.#marca = marca;
+       }
+       setModelo(modelo){
+           this.#modelo = modelo;
+       }
+       setCor(cor){
+           this.#cor = cor;
+       }
+       setAno(ano){
+           this.#ano = ano;
+       }
+
+       //getters
+
+       getMarca(marca){
+           return this.#marca
+       }
+       getModelo(modelo){
+           return this.#modelo
+       }
+       getCor(cor){
+           return this.#cor
+       }
+       getAno(ano){
+           return this.#ano
+       }
+
+    }
+
+    //objetos
+
+    var ferrari = new Carros();
+
+    //exibindo os objetos
+
+    ferrari.setMarca('ferrari');
+    ferrari.setModelo('a mais recente');
+    ferrari.setCor('vermelho');
+    ferrari.setAno('2021');
+    console.log(ferrari);
+
+    document.write(`
+            <p>ferrari:</p>
+            <ul>
+                <li>Marca: ${ferrari.getMarca()}</li>
+                <li>Modelo: ${ferrari.getModelo()}</li>
+                <li>Cor: ${ferrari.getCor()}</li>
+                <li>Ano de fabricação: ${ferrari.getAno()}</li>
+            </ul>
+        `);
+
+</script>
+   
 </body>
 
 </html>
