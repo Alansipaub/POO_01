@@ -1,0 +1,67 @@
+
+h2{
+    font-size: 40px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(251, 246, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/tumblr_plluxvkFK31slzelwo3_500.gif);
+    background-size: 96%;
+    background-repeat:repeat;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.container{
+    margin: 1% auto;
+    width: 100%;
+    text-align: center
+    
+    
+    
+    
+}
+.mainav{
+   background-color: rgba(219, 160, 242, 0.326);
+    color: rgb(34, 11, 207);
+    padding: 0% 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+    
+}
+.mainav li{
+display: inline;
+padding: 0% 2%;
+
+margin-left: 0%;
+}
+.mainav li a{
+    text-decoration: center;
+    color: rgb(242, 233, 243);
+    font-size: 20px;
+    
+
+}
+.mainav li a:hover{
+    text-decoration: none;
+    color: rgb(44, 225, 238);
+    font-weight: bold;
+    font-size: 14px;
+ 
+    
+}
+.ari{
+    float:right; 
+    margin-top: 350px;
+}
+.carrossel {
+    display: online-block;
+position: absolute;
+    margin-bottom: 10px;
+    padding: 1%;
+    border-radius: 8em;
+    
+  }
