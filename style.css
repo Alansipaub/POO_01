@@ -1,18 +1,30 @@
 
-h2{
-    font-size: 40px;
+.banana{
+    margin-top: -17px;
+    
 }
+
+h1{
+    font-size: 27px;
+    background-color: rgb(255, 255, 255);
+    border:100px
+    
+}
+
 body{
     margin: 0;
     padding: 0;
     text-align: center;
-    color: rgb(251, 246, 246);
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(img/tumblr_plluxvkFK31slzelwo3_500.gif);
-    background-size: 96%;
+    background-image: url(img/formation.jpg);
+    background-size: 100%;
     background-repeat:repeat;
     text-decoration: none;
     font-weight: bolder;
+   
+    
+
 }
 .container{
     margin: 1% auto;
@@ -24,11 +36,12 @@ body{
     
 }
 .mainav{
-   background-color: rgba(219, 160, 242, 0.326);
+  
     color: rgb(34, 11, 207);
     padding: 0% 2%;
     margin-bottom: 5%;
     margin-top: 5%;
+    float: left;
     
     
 }
@@ -39,24 +52,21 @@ padding: 0% 2%;
 margin-left: 0%;
 }
 .mainav li a{
-    text-decoration: center;
-    color: rgb(242, 233, 243);
+    text-decoration: none;
+    color: rgb(246, 246, 246);
     font-size: 20px;
     
 
 }
 .mainav li a:hover{
     text-decoration: none;
-    color: rgb(44, 225, 238);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 14px;
  
     
 }
-.ari{
-    float:right; 
-    margin-top: 350px;
-}
+
 .carrossel {
     display: online-block;
 position: absolute;
@@ -65,3 +75,25 @@ position: absolute;
     border-radius: 8em;
     
   }
+  .beyon{
+      float: right ;
+      margin-top: 600px;
+      margin-right: 20px;
+  }
+  .kwoless{
+      color: black;
+      text-decoration: none;
+      padding: 0% 2%;
+    margin-top: -940px;
+    margin-left: 99%;
+    float: right ;
+    font-size: 13px;
+
+
+  }
+  .iphone{
+      position: absolute;
+      margin-top: -7%;
+      margin-left: -11%;
+  }
+
