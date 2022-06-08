@@ -21,7 +21,7 @@ body{
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(img/formation.jpg);
+    background-image: url(img/16_Magazine_image_1200x7202.jpg);
     background-size: 100%;
     background-repeat:repeat;
     text-decoration: none;
@@ -115,4 +115,8 @@ margin-top: 600px;
 
 
     
+  }
+  .contents{
+      color:white;
+      font-size: 20px;
   }
