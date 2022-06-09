@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="ajuda.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <div class="chupa">
+
+    </div>
+      </nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Melanie Martinez</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Musicas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Precisa de ajuda?</a>
+              </li>
+           
+              
+              <li class="nav-item">
+                <a class="nav-link disabled"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="pesquisa">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+              
+            </form>
+            
+          </div>
+        </div>
+      </nav>
+
+      
+  </body>
+</html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  
+</head>
+  <body>
+    <div class="contents">
+        <form name="faleconosco" onsubmit="msg();">
+          <fieldset class="grupo">
+            <legend>Fale Conosco</legend>
+    
+            <label>Informe seu nome:</label>
+            <input
+              type="text"
+              class="maior"
+              name="nome"
+              id="nome"
+              required
+              maxlength="50"
+              placeholder="Digite seu nome completo..."
+              onblur="aumento();"
+            />
+            <br /><br />
+    
+            <label>Informe o assunto:</label>
+            <select class="menor" name="assunto" id="assunto">
+              <option value="0">Selecione o Assunto</option>
+              <option value="1">Críticas</option>
+              <option value="2">Sugestões</option>
+              <option value="3">Outros</option>
+            </select>
+            <br /><br />
+    
+            <label>Deixe seu recado:</label>
+            <br />
+            <textarea
+              name="recado"
+              class="maior"
+              id="recado"
+              rows="5"
+              required
+              maxlength="100"
+              placeholder="Digite seu recado..."
+            ></textarea>
+            <br /><br />
+    
+            <input type="submit" name="enviar" id="enviar" value="ENVIAR" />
+            <input type="reset" name="limpar" id="limpar" value="LIMPAR" />
+          </fieldset>
+        </form>
+      </div>
+  
+  </body>
+</html>

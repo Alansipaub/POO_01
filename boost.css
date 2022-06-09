@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/home.jpg);
+    background-size: 100%;
+    background-repeat:repeat;
+    text-decoration: none;
+    font-weight: bolder;
+    
+    
+    
+   
+    
+
+}
+.iphone{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 39.3%;
+}
+.mainav{
+  
+    color: rgb(34, 11, 207);
+    padding: 0% 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    float: left;
+    
+    
+}
+.mainav li{
+display: inline;
+padding: 0% 2%;
+
+margin-left: 0%;
+}
+.mainav li a:hover{
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+    font-size: 20px;
+    
+    
+
+}
+.mainav li a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+    font-size: 12px;
+    
+ 
+    
+}
