@@ -4,7 +4,7 @@ body{
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(img/home.jpg);
+    background-image: url(img/tourDesk.jpg);
     background-size: 100%;
     background-repeat:repeat;
     text-decoration: none;
@@ -18,8 +18,8 @@ body{
 }
 .iphone{
     position: absolute;
-    margin-top: 12px;
-    margin-left: 39.3%;
+    margin-top: 65px;
+    margin-left: 45%;
 }
 .mainav{
   
@@ -54,19 +54,19 @@ margin-left: 0%;
  
     
 }
-
-.BUS{
-    position: absolute;
-    margin-top: 760px;
-    margin-left: 300px;
+.heart{
+position: absolute;
+margin-top: 350px;
+margin-left: 1050px;
 }
-.ep{
-    position: absolute;
-    margin-top: 90px;
-    margin-left: 1350px;
+.coracao{
+position: absolute;
+margin-top: 350px;
+margin-left: 692px;
 }
-.clas{
+.musicas{
     position: absolute;
-    margin-top: 650px;
-    margin-left: 1550px;
+    margin-top: 390px;
+    margin-left: 645px;
+    width: 200%;
 }
